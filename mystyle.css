@@ -1,23 +1,91 @@
+/* Hela body */
 body {
-  padding-left: 11em;
   font-family: Georgia, "Times New Roman",
         Times, serif;
-  color: purple;
-  background-color: grey
+  color: black;
+  background-color: #e0e0e0;
+  border: 10px solid #e0e0e0;
+  outline-color: red;
 }
-
+/* h1 terxt element */
 h1 {
   font-family: Helvetica, Geneva, Arial,
-        SunSans-Regular, sans-serif
-      }
-
-#cssmenue {
-  padding-top: auto;
-  color: #35df
+        SunSans-Regular, sans-serif;
 }
 
+/* Menue bar */
+ul.navbar {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  background-color:#0033cc;
+  position: relative;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+ul.navbar li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+ul.navbar li a{
+  display: block;
+  color: black;
+   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover{
+  background-color: #f32f05;
+}
+
+ul.navbar li:last-child {
+  border-right: none;
+  border-left: 1px solid #bbb;
+}
+
+ul.navbar .active{
+  background-color: #f32f05;
+}
+div.content {
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+@media screen  and (max-width:900px) {
+  ul.navbar{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  ul.navbar li a {
+    float:left;
+    padding: 15px;
+  }
+  div.content {margin-left: 0;}
+}
+@media screen and (max-width: 400px) {
+    ul.navbar li a {
+        text-align: center;
+        float: none;
+        position: relative;
+    }
+}
+
+#content {
+position: relative;
+
+}
+
+/* credit made by... */
 address {
-  background-color: lightblue
-  width:auto;
-  padding-bottom: auto;
+background-color: #f32f05;
+padding-top: 20px;
+padding-bottom: 20px;
+width: 100%;
+text-align: center;
 }
