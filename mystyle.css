@@ -12,6 +12,7 @@
   background-size: cover;
   position: relative;
 }
+
 .hero-text {
   text-align: center;
   position: absolute;
@@ -31,6 +32,7 @@ body {
   outline-color: red;
   height: 100%;
 }
+
 /* h1 terxt element */
 h1 {
   font-family: Helvetica, Geneva, Arial,
