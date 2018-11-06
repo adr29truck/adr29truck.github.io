@@ -59,6 +59,7 @@ nav {
     padding: 7px 7px 0px 7px;
     margin: 10px;
     background-color: red;
+    border-radius: 2%;
 }
 
 .content_boxes a {
@@ -71,7 +72,7 @@ nav {
     padding: 0px;
 }
 
-
+/* TODO: Temporary banner. Also remove position:relative; in body */
 
 .workinprogress{
     width: 100%;
