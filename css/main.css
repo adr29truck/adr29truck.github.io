@@ -1,0 +1,93 @@
+/*  *//*  *//*  *//*  *//*  */
+/*          GLOBAL          */
+/*  *//*  *//*  *//*  *//*  */
+
+body {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.wrapper {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #2E3739;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 14% auto;
+    grid-template-rows: 155px auto 5%;
+}
+
+header {
+    grid-column: 2 / span 1;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #FFDCFB;
+    font-size: 2em;
+    border-bottom-style: solid;
+    border-color: #FFDCFB;
+}
+
+header h1 {
+    margin-top: -1px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+header h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav {
+    background-color: #00B2A2;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 3;
+}
+
+.content {
+    margin: 5px 15px 5px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content_boxes {
+    height: 40vh;
+    width: 30%;
+    padding: 7px 7px 0px 7px;
+    margin: 10px;
+    background-color: red;
+    border-radius: 2%;
+}
+
+.content_boxes a {
+    text-decoration: none;
+    color: #FFDCFB;
+}
+
+.content_boxes h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* TODO: Temporary banner. Also remove position:relative; in body */
+
+.workinprogress{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.800);
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+
+
+/*  *//*  *//*  *//*  *//*  */
+/*          Media query     */
+/*  *//*  *//*  *//*  *//*  */
+@media screen and (max-width: 750px) {
+    nav {
+        display: none;
+    }
+}
