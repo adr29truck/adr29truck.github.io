@@ -72,6 +72,13 @@ nav {
     padding: 0px;
 }
 
+.read_more{
+    transition: all 2s ease 0s;
+}
+.read_more:hover{
+color: black;
+}
+
 /* TODO: Temporary banner. Also remove position:relative; in body */
 
 .workinprogress{
