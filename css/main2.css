@@ -102,7 +102,7 @@ footer {
         width: 80%;
     }
     .content_boxes h3{
-        margin-left: -5px;
+        /* margin-left: -5px; */
     }
 }
 /* ----------- iPad 1, 2, Mini and Air ----------- */
