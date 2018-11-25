@@ -56,7 +56,7 @@ nav {
 .content_boxes {
     height: 40vh;
     width: 30%;
-    padding: 7px 7px 0px 7px;
+    padding: 7px 7px 0px 10px;
     margin: 10px;
     background-color: red;
     border-radius: 2%;
@@ -70,6 +70,14 @@ nav {
 .content_boxes h3 {
     margin: 0px;
     padding: 0px;
+    padding-right: 35px;
+}
+
+.read_more{
+    transition: all 2s ease 0s;
+}
+.read_more:hover{
+color: black;
 }
 
 /* TODO: Temporary banner. Also remove position:relative; in body */
