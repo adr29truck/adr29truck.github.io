@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main2.css" />
-    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main2.css" />
+    <script src="js/main.js"></script>
 </head>
+
 <body>
-    <div class="wra">
+    <div class="wrapper">
         This is still an empty file
         <a href="index.html">Go back to the fist page</a>
+        <div class="score-board">
+            <div id="user-label" class="badge">user</div>
+            <div id="computer-label" class="badge">computer</div>
+            <span id="user_score">0</span>:<span id="computer_score">0</span>
+        </div>
+
+        <div class="result">
+            <p>Paper covers rock, you win! Congrats!</p>
+        </div>
+
+        <div class="choices">
+            <div class="choise" id="r">rock</div>
+            <div class="choise" id="p">paper</div>
+            <div class="choise" id="s">scissor</div>
+        </div>
     </div>
 </body>
+
 </html>

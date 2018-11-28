@@ -101,9 +101,9 @@ footer {
     .content_boxes {
         width: 80%;
     }
-    .content_boxes h3{
-        /* margin-left: -5px; */
-    }
+    /* .content_boxes h3{
+        margin-left: -5px;
+    } */
 }
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 /* Portrait and Landscape */
@@ -129,4 +129,29 @@ footer {
     header h5{
         font-size: 1.1rem;
     }
+}
+
+
+
+
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+/*  *//*  */ 
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+#r{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    margin-top:10px;
+}
+#p{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    margin-top:10px;
+}
+#s{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    margin-top:10px;
 }
